@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear linear-gradient()rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), url('../IMAGES/plane.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg 20s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes slideBg {
+	0% {
+		background-image: url('../IMAGES/logistics.jpeg');
+	}
+	10% {
+		background-image: url('../IMAGES/aircraft_loading.jpg');
+	}
+	20% {
+		background-image: url('../IMAGES/truck_loading.jpeg');
+	}
+	30% {
+		background-image: url('../IMAGES/port-aerial.jpg');
+	}
+	40% {
+		background-image: url('../IMAGES/ship.jpg');
+	}
+	50% {
+		background-image: url('../IMAGES/ship-aerial.jpg');
+	}
+	60% {
+		background-image: url('../IMAGES/container.jpg');
+	}
+	70% {
+			background-image: url('../IMAGES/forklift.jpg');
+	}
+	80% {
+			background-image: url('../IMAGES/loading.jpg');
+	}
+	90% {
+			background-image: url('../IMAGES/truck_loading2.jpeg');
+	}
+	100% {
+			background-image: url('../IMAGES/package.jpeg');
+	}
+}
